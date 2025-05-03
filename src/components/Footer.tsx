@@ -28,8 +28,12 @@ function Footer() {
         </div>
         <div className="w-full md:w-1/4 flex flex-col ">
           <h1 className="mt-4 text-white">Get Started</h1>
-          <Link to={"/privacy-policy"} className="text-sm mt-6 text-zinc-300">Privacy Policy</Link>
-          <h1 className="text-sm text-zinc-300">Terms and Conditions</h1>
+          <Link to={"/privacy-policy"} className="text-sm mt-6 text-zinc-300">
+            Privacy Policy
+          </Link>
+          <Link to={"/terms"} className="text-sm text-zinc-300">
+            Terms and Conditions
+          </Link>
           <h1 className="text-sm text-zinc-300">Refund and Returns</h1>
         </div>
         <div className="w-full md:w-1/4 flex flex-col ">

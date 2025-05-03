@@ -1,3 +1,4 @@
+import CustomPanel from "../components/CustomPanel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
@@ -17,6 +18,7 @@ function Home() {
       <Navbar />
       <Header />
       <SectionThree />
+      <CustomPanel />
       <SectionTwo />
       <SectionFive />
       <SectionSeven />

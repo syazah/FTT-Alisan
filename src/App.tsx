@@ -7,6 +7,7 @@ import { BiShoppingBag } from "react-icons/bi";
 import Cart from "./pages/Cart";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
+import TermsAndCon from "./pages/TermsAndCon";
 
 function App() {
   const currentCart = useRecoilValue(cartState);
@@ -27,6 +28,7 @@ function App() {
         <Route path={"/cart"} element={<Cart />} />
         <Route path={"/privacy-policy"} element={<PrivacyPolicy />} />
         <Route path={"/contact"} element={<Contact />} />
+        <Route path={"/terms"} element={<TermsAndCon />} />
         <Route path={"*"} element={<h1>Not Found</h1>} />
       </Routes>
     </BrowserRouter>

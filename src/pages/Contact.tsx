@@ -47,7 +47,7 @@ function Contact() {
             <GrLocation className="text-lg md:text-2xl text-primary" />
             <p className="w-2/3 md:text-base text-xs">
               FTT innovations Peregrine building Pole 253, village bijwasan
-              railway crossing, New Delhi 110077 Sanchit 9718385111
+              railway crossing, New Delhi 110077
             </p>
           </div>
         </div>

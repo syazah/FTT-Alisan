@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 const imageData = [
   "/header/1.png",
   "/header/2.png",
@@ -105,6 +106,12 @@ function Header() {
             Experience the future of smart living with our cutting-edge touch
             panel, designed to simplify and elevate your home's functionality.
           </motion.p>
+          <Link
+            to="/contact"
+            className="px-4 py-2 rounded-full bg-white mt-4 cursor-pointer hover:bg-zinc-900 hover:text-white transition-all duration-500"
+          >
+            Know More
+          </Link>
         </div>
 
         <div className="md:w-1/2 h-[30vh] md:h-full flex justify-center items-center">

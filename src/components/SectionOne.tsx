@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function SectionOne() {
   return (
-    <div className="w-full bg-black h-[140vh] md:h-[90vh] flex flex-col md:flex-row justify-start items-center relative">
+    <div className="w-full bg-black h-[120vh] md:h-[90vh] flex flex-col md:flex-row justify-start items-center relative">
       <div className="w-full md:w-1/2 flex justify-center items-center h-full relative">
         <CircleElement
           animVal={0}

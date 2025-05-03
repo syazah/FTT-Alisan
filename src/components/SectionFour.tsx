@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function SectionFour() {
   return (
-    <div className="w-full bg-black h-[140vh] md:h-[90vh] flex flex-col md:flex-row justify-start items-center relative px-2 py-10 md:p-0">
+    <div className="w-full bg-black h-[120vh] md:h-[90vh] flex flex-col md:flex-row justify-start items-center relative px-2 py-10 md:p-0">
       <div className="w-full md:w-1/2 h-full flex justify-center items-center md:items-end flex-col gap-3 md:ml-10">
         <div className="w-10 h-10 rounded-full bg-primary flex flex-col justify-center items-center">
           <BsStarFill className="text-xl text-white" />

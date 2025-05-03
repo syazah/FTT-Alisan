@@ -65,6 +65,15 @@ function SectionTwo() {
             </motion.div>
           );
         })}
+
+        <Product
+          product={{
+            name: "12 Module",
+            description:
+              "The 12 Module Touch Switch is a high-capacity solution for managing multiple appliances, supporting loads up to 25A for heavy devices. With features like auto-calibration, RGB LED indicators, wet-hand proof touch, and dual-phase power supply, it offers unmatched functionality and style. Available in Black, Grey, and Champagne Gold, it suits expansive setups perfectly.",
+            img: "/twelve.png",
+          }}
+        />
       </div>
     </div>
   );
